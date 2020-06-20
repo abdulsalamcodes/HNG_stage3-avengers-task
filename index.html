@@ -2,21 +2,21 @@
 <html lang="en">
   <head>
     <title>Paragon Projects page</title>
-    <!-- Required meta tags -->
+    <!----- Required meta tags ------->
     <meta charset="utf-8" />
     <meta
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
 
-    <!-- Bootstrap CSS -->
+    <!------ Bootstrap CSS ------->
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
       crossorigin="anonymous"
     />
-    <!--Using Font awesome-->
+    <!------- Using Font awesome ------->
     <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
 
     <link
@@ -24,69 +24,77 @@
       rel="stylesheet"
     />
 
-    <!--Custom css-->
+    <!----- Custom css ------->
     <link rel="stylesheet" href="./css/index.css" />
   </head>
   <body>
     <div class="container">
-      <!--Header-->
-      <div class="row header-wrapper">
-        <div class="col logo-wrapper">
-          <img src="./Images/Paragon Logo.png" alt="" />
-        </div>
-        <div class="col link-wrapper">
-          <ul class="nav justify-content-center">
-            <li class="nav-item span">
-              <a class="nav-link navlink" href="#">HOME</a>
+      <!----------------------Navbar------------------->
+      <nav class="navbar navbar-custom navbar-expand-lg  navbar-light">
+        <a class="navbar-brand" href="index.html">
+            <img src="./Images/Paragon Logo.png" width="130" height="40" alt="Paragon Logo" loading="lazy">
+          </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link  uppercase" href="#"><span class="grey-dot"></span> Home </a>
             </li>
-            <li class="nav-item span">
-              <a class="nav-link navlink" href="#">SERVICES</a>
+            <li class="nav-item">
+                <a class="nav-link  uppercase" href="#"><span class="grey-dot"></span> About Us</a>
             </li>
-            <li class="nav-item span">
-              <a class="nav-link navlink" href="#">TEAMS</a>
+            <li class="nav-item">
+                <a class="nav-link uppercase nav-black" href="#"><span class="grey-dot"></span> Services</a>
             </li>
-            <li class="nav-item span">
-              <a class="nav-link active span nav_link" href="#">PROJECT</a>
+            <li class="nav-item">
+                <a class="nav-link uppercase" href="#"><span class="grey-dot"></span> Team</a>
             </li>
-            <li class="nav-item span">
-              <a class="nav-link navlink" href="#">CLIENTS</a>
+            <li class="nav-item">
+              <a class="nav-item nav-link current-page uppercase" href="#"> Projects <span class="sr-only">(current)</span></a>
             </li>
-            <li class="nav-item span">
-              <a class="nav-link navlink" href="#">ABOUT US</a>
+            <li class="nav-item">
+                <a class="nav-link uppercase" href="#"><span class="grey-dot"></span> Clients</a>
             </li>
-            <li class="nav-item span">
-              <a class="nav-link navlink" href="#">CONTACT US</a>
+            <li class="nav-item">
+                <a class="nav-link uppercase" href="#"><span class="grey-dot"></span> Contact Us</a>
             </li>
           </ul>
         </div>
-      </div>
+      </nav>
 
-      <!--Project Header-->
-      <div class="project_intro">
-        <div class="project_text">
-          <div class="project_text_wrapper">
-            <div class="text_wrapper">
-              <h1>OUR PROJECTS</h1>
-              <div class="anchor anchor_tp_left tp-size bt-color"></div>
-              <div class="anchor anchor_bt_right bt-size tp-color"></div>
-              <div class="anchor anchor_tp_right tp-size tp-color"></div>
-              <div class="anchor anchor_bt_left bt-size bt-color"></div>
-            </div>
-            <div class="second_text_wrapper">
-              <p>
-                Find below, our amazing 21st century architecture delivered to
-                our happy clients all over the world.
-              </p>
+      <!-------- Project Header --------->
+      <div class="row">
+        <div class="col-xs col-sm">
+          <div class="project_intro">
+            <div class="project_text">
+              <div class="project_text_wrapper">
+                <div class="text_wrapper">
+                  <h1>OUR PROJECTS</h1>
+                  <div class="anchor anchor_tp_left tp-size bt-color"></div>
+                  <div class="anchor anchor_bt_right bt-size tp-color"></div>
+                  <div class="anchor anchor_tp_right tp-size tp-color"></div>
+                  <div class="anchor anchor_bt_left bt-size bt-color"></div>
+                </div>
+                <div class="second_text_wrapper">
+                  <p>
+                    Find below, our amazing 21st century architecture delivered to
+                    our happy clients all over the world.
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
 
-      <!--Cards-->
+      <!-------- Cards -------->
       <div class="row mx-5">
 
-        <!--First Card-->
-        <div class="col-4">
+        <!------- First Card ---------->
+        <div class="col-sm col-xs">
           <div class="card card-wrapper">
             <img
               class="card-img-top card-image"
@@ -104,8 +112,8 @@
           </div>
         </div>
 
-        <!--Second Card-->
-        <div class="col-4">
+        <!-------- Second Card --------->
+        <div class="col-sm col-xs">
           <div class="card card-wrapper">
             <img
               class="card-img-top card-image"
@@ -123,8 +131,8 @@
           </div>
         </div>
 
-        <!--Third Card-->
-        <div class="col-4">
+        <!--------- Third Card ----------->
+        <div class="col-sm col-xs">
           <div class="card card-wrapper">
             <img
               class="card-img-top card-image"
@@ -144,8 +152,8 @@
       </div>
 
       <div class="row mx-5">
-        <!--Fourth Card-->
-        <div class="col-4">
+        <!------- Fourth Card -------->
+        <div class="col-xs col-sm">
           <div class="card card-wrapper">
             <img
               class="card-img-top card-image"
@@ -163,8 +171,8 @@
           </div>
         </div>
 
-        <!--Fifth Card-->
-        <div class="col-4">
+        <!------- Fifth Card -------->
+        <div class="col-xs col-sm">
           <div class="card card-wrapper">
             <img
               class="card-img-top card-image"
@@ -182,8 +190,8 @@
           </div>
         </div>
 
-        <!--Sixth Card-->
-        <div class="col-4">
+        <!-------- Sixth Card ---------->
+        <div class="col-xs col-sm">
           <div class="card card-wrapper">
             <img
               class="card-img-top card-image"
@@ -203,8 +211,8 @@
       </div>
 
       <div class="row mx-5">
-        <!--Seventh card-->
-        <div class="col-4">
+        <!----- Seventh card -------->
+        <div class="col-xs col-sm">
           <div class="card card-wrapper">
             <img
               class="card-img-top card-image"
@@ -222,8 +230,8 @@
           </div>
         </div>
 
-        <!--Eighth Card-->
-        <div class="col-4">
+        <!------ Eighth Card ------->
+        <div class="col-xs col-sm">
           <div class="card card-wrapper">
             <img
               class="card-img-top card-image"
@@ -241,8 +249,8 @@
           </div>
         </div>
 
-        <!--Ninth Card-->
-        <div class="col-4">
+        <!------- Ninth Card -------->
+        <div class="col-xs col-sm">
           <div class="card card-wrapper">
             <img
               class="card-img-top card-image"
@@ -262,9 +270,9 @@
 
       </div>
 
-      <!--Indicators-->
+      <!------- Indicators ---->
       <div class="row ">
-        <div class="col ">
+        <div class="col-xs col-sm">
           <ul class="pagination justify-content-center mx-5 pt-4 ">
             <span class="page-item pd-2"><a class="page-link" href="#">Prev</a></span>
             <li class="page-item pd-2"><a class="page-link" href="#">1</a></li>
@@ -275,56 +283,107 @@
         </div>
       </div>
 
-      <!--Footer-->
-      <div class="row footer">
-
-        <div class="col-3 px-6">
-          <img class="Paragon_logo" src="./Images/Paragon Logo.png" alt="Paragon Logo">
-          <p class="foot_note">An Architecture & Interior design company that specializes in producing quality work</p>
-        </div>
-
-        <div class="col-3 d-flex">
-          <div class="pt-3">
-            <h6 class="headers">Sitemap</h6>
-          <ul>
-            <li>Home</li>
-            <li>Services</li>
-            <li>Team</li>
-            <li id="project">Project</li>
-          </ul>
+      
+      <!-----------Footer-------------->
+      <footer id="footer-section">
+        <div class="container">
+            <div class="row justify-content-between">
+              <div class="col-md-4 col-lg-4">
+                <img src="./Images/Paragon Logo.png" width="150" height="70" alt="Paragon White Logo" loading="lazy">
+            <p>An Architecture & Interior design company that specializes in producing quality work</p>  
+            </div>
+              <div class="col-md-auto">
+                <h4>Sitemap</h4>
+                <div id="sitemap">
+                    <ul class="footer-list">
+                        <li>
+                            <a class="footer-link" href="#">Home</a>
+                        </li>
+                        <li>
+                            <a class="footer-link" href="#">About Us</a>
+                        </li>
+                        <li>
+                            <a class="footer-link" href="#">Services</a>
+                        </li>
+                        <li>
+                            <a class="footer-link" href="#">Team</a>
+                        </li>
+                     
+                    </ul>
+                    <ul class="footer-list">
+                       
+                        <li>
+                            <a class="footer-link" href="#">Project</a>
+                        </li>
+                        <li>
+                            <a class="footer-link" href="#">Client</a>
+                        </li>
+                        <li>
+                            <a class="footer-link" href="#">Contact Us</a>
+                        </li>
+                    
+                    </ul>
+                </div>
+               
+        
+              </div>
+              
+              <div class="col-md-auto">
+                <h4>Information</h4>
+                <ul class="footer-list">
+                    <li>
+                        <a class="footer-link" href="#">Contact Us</a>
+                    </li>
+                    <li>
+                        <a class="footer-link" href="#">Privacy Policy</a>
+                    </li>
+                    <li>
+                        <a class="footer-link" href="#">Terms and Conditions</a>
+                    </li>
+                
+                </ul>
+              </div>
+              <div class="col-md-auto">
+                <h4>Solutions</h4>
+                <ul class="footer-list">
+                    <li>
+                        <a class="footer-link" href="#">Interior Design</a>
+                    </li>
+                    <li>
+                        <a class="footer-link" href="#">Architecture</a>
+                    </li>
+                    <li>
+                        <a class="footer-link" href="#">Art Design</a>
+                    </li>
+                
+                </ul>
+              </div>
+              <div class="col-md-auto">
+                <h4>Social media</h4>
+                <ul class="social-list">
+                    <li>
+                        <a class="footer-link" href="#">
+                            <img src="./Images/twitter.png" width="24" height="24" alt="Instagram" loading="lazy">
+                        </a>
+                    </li>
+                    <li>
+                        <a class="footer-link" href="#">
+                            <img src="./Images/instagram.png" width="24" height="24" alt="Twitter" loading="lazy">
+                        </a>
+                    </li>
+                    <li>
+                        <a class="footer-link" href="#">
+                            <img src="./Images/240_F_176989956_nM5eauG1PT29YV9WJnWnAQuZ4ZXktoUW.jpg" width="24" height="24" alt="Facebook" loading="lazy">
+                        </a>
+                    </li>
+                
+                </ul>
+              </div>
+            </div>
+          
           </div>
-          <div class="pt-5">
-            <ul>
-              <li>Clients</li>
-              <li>About Us</li>
-              <li>Contact Us</li>
-            </ul>
-          </div>
-        </div>
+    </footer>
 
-        <div class="col-3 pt-3">
-          <h6 class="headers">Information</h6>
-          <li>Contact Us</li>
-          <li>Privacy Policy</li>
-          <li>Terms & Coditions</li>
-        </div>
-
-        <div class="col-3 d-flex">
-          <div class="pt-3">
-            <h6 class="headers">Solutions</h6>
-          <li>Interior Design</li>
-          <li>Architecture</li>
-          <li>Art Design</li>
-          </div>
-          <div class="pt-3">
-            <h6 class="headers">Social Media</h6>
-            <a href="#" class="icoInstagram" title="Instagram"><i class="fa fa-instagram"></i></a>
-              <a href="#" class="icoFacebook " title="Facebook" style="width: 100px; height: 100px;"><i class="fa fa-facebook"></i></a>
-              <a href="#" class="icoTwitter" title="Twitter"><i class="fa fa-twitter"></i></a>
-          </div>
-        </div>
-
-      </div>
     </div>
   </body>
 
