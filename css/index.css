@@ -7,7 +7,7 @@
 html,
 body {
   margin: 0;
-  width: 100%;
+  width: auto;
   overflow-x: hidden;
 }
 /*-----Imports------------*/
@@ -97,6 +97,7 @@ body {
 }
 body {
   font-family: 'Roboto', sans-serif;
+  width: auto;
   /* overflow: hidden; */
 }
 .header-wrapper {
