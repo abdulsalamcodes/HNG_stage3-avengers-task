@@ -100,18 +100,49 @@ body {
   width: auto;
   /* overflow: hidden; */
 }
-.header-wrapper {
-  background-color: rgba(255, 255, 255, 0.863);
-  max-width: 1440px;
-  height: 95px;
+/*-----Common use classes-------*/
+.uppercase {
+  text-transform: uppercase;
 }
-.logo-wrapper {
-  height: 38px;
-  max-width: 280px;
+.uppercase-bold {
+  font-weight: bold;
+  text-transform: uppercase;
 }
-.link-wrapper {
-  margin-top: 18px;
-  margin-left: 110px;
+.text-center {
+  text-align: center;
+}
+/* change the background color */
+.navbar-custom {
+  background-color: #f1f1f1;
+}
+
+/* change the link color */
+.navbar-custom .navbar-nav .nav-item .nav-link {
+  color: black;
+  font-size: 20px;
+}
+/* change the color of active or hovered links */
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+  color: black;
+}
+.nav-link {
+  position: relative;
+}
+.direction_text {
+  font-size: 38px;
+  font-weight: bold;
+}
+.current-page {
+  color: #e4af26 !important;
+}
+
+.nav-black {
+  color: black;
+}
+/*------Background------------*/
+body {
+  background-color: #e5e5e5;
 }
 .project_intro {
   background-image: url(../Images/nick-fewings-_AXfP_W4fpU-unsplash.jpg);
@@ -139,11 +170,11 @@ body {
   text-align: center;
 }
 h1 {
-  font-size: 92px;
+  font-size: 123px;
   padding: 6%;
 }
 p {
-  font-size: 17px;
+  font-size: 22px;
   padding-top: 3%;
 }
 .text_wrapper {
