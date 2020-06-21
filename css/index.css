@@ -88,7 +88,9 @@ body {
     border-bottom: 5px solid transparent;
   }
 }
-
+#h {
+  font-size: 9rem;
+}
 /* Making the cards responsive**/
 .row::after {
   content: '';
@@ -115,7 +117,9 @@ body {
 .navbar-custom {
   background-color: #f1f1f1;
 }
-
+h4 {
+  font-size: 1.8rem;
+}
 /* change the link color */
 .navbar-custom .navbar-nav .nav-item .nav-link {
   color: black;
@@ -130,13 +134,11 @@ body {
   position: relative;
 }
 .direction_text {
-  font-size: 38px;
-  font-weight: bold;
+  font-size: 1.2em;
 }
 .current-page {
   color: #e4af26 !important;
 }
-
 .nav-black {
   color: black;
 }
@@ -231,7 +233,7 @@ p {
   opacity: 2;
 }
 .description {
-  font-size: 37px;
+  font-size: 1.3rem;
   font-weight: 400;
   padding-bottom: 15px;
 }
@@ -262,8 +264,12 @@ p {
   display: inline;
   padding: 10px 10px 10px 0;
 }
+.p {
+  font-size: 16px;
+}
 .footer-link {
   text-decoration: none;
+  font-size: 1.4rem;
   color: white;
   padding: 0;
 }
